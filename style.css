@@ -1,0 +1,245 @@
+body{
+    padding-top: 58px;
+}
+.header{
+background-color: black;
+color: white;
+}
+.showcart-max{
+   
+    margin-top:5px ;
+}
+.showcart-min{
+    display: none;
+}
+@media  and (min-width:990px) {
+    .showcart-max{
+       display: inline; 
+   }
+    .showcart-min{
+        display: block;
+    }
+}
+.bg-image{
+  
+    height: 75vh;
+    background-image: url('images/first1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 9px solid gray;
+    background-position: center bottom;
+   color: antiquewhite;
+
+}
+.heading-div{
+    display: flex;
+    flex-direction: column;
+    /* font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;; */
+}
+.main-heading{
+    font-size: 300%;
+    font-weight: 600;
+   
+}
+.small-heading{
+    font-size: 150%;
+}
+.bg-image a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: x-large;
+}
+.bg-image a:hover{
+    text-decoration: underline;
+}
+.learnmore-links{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+@media screen and (max-width:750px) {
+   .bg-image{
+       height : 75vh;
+        background-image: url('images/pic1.jpeg');
+   }
+   .main-heading{
+    font-size: 200%;
+   }
+   .small-heading{
+    font-size: 120%;
+   }
+   .bg-image a{
+    font-size: larger;
+   }
+    
+}
+@media screen and (min-width:1200px) {
+    .bg-image{
+        height : 94vh;
+         background-image: url('images/first2.jpg');
+    }
+}
+
+
+#bg-image2{
+    background-image: url('images/second3.jpg');
+}
+@media screen and (max-width:750px) {
+    #bg-image2{
+        height : 75vh;
+         background-image: url('images/second1.jpg');
+    }
+}
+@media screen and (min-width:1200px) {
+    #bg-image2{
+        height : 94vh;
+         background-image: url('images/second3.jpg');
+    }
+}
+#bg-image3{
+    background-image: url('images/third3.jpg');
+}
+@media screen and (max-width:750px) {
+    #bg-image3{
+        height : 75vh;
+         background-image: url('images/third1.jpg');
+    }
+}
+@media screen and (min-width:1200px) {
+    #bg-image3{
+        height : 94vh;
+         background-image: url('images/third3.jpg');
+    }
+}
+.imgblock-div{
+    overflow: hidden;
+    width: 100%;
+}
+.image-blocks{
+    padding-top: 10vh;
+    width: 50%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: antiquewhite;
+    border-bottom: 9px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-imgblock{
+    border-right: 9px solid gray;
+   
+    
+}
+@media screen and (max-width:767px) {
+    .left-imgblock{
+        border-right: none;
+    }
+}
+.block-tophead{
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+}
+.block-subhead{
+    font-size: 130%;
+    text-align: center;
+}
+.footer-div1 {
+    
+    font-size: small;
+    padding-top: 3%;
+}
+.inner-footer{
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.inner-footer2{
+    height: 10vh;
+}
+
+.span span{
+  padding-left: 20px;
+  padding-right: 10px;  
+
+   
+}
+.footer-div2{
+    display: none;
+    
+}
+.icon-div{
+    color: green;
+}
+.icon-div a{
+  color: green;
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-div1{
+        display: none;
+    }
+    .footer-div2{
+        display: block;
+    }
+    
+}
+
+
+
+.collapsible {
+    background-color: #2f2d2d;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(196, 190, 190);
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #262626;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #2f2d2d;
+    list-style-type: none;
+    color: antiquewhite;
+    border-bottom: 1px solid rgb(196, 190, 190);;
+
+  }
+  .copyright-div{
+    height: 10vh;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #2f2d2d;
+    color: antiquewhite;
+    border-bottom: 1px solid rgb(196, 190, 190);
+  }
+  .bottom-footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #2f2d2d;
+    color: antiquewhite
+  }
+  .icon-footer{
+    color: green;
+  }
